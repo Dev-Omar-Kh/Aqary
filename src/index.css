@@ -3,6 +3,7 @@
 
 :root {
 
+  --red-color: #FF0000;
   --black-color: #262626;
   --white-color: #FFFFFF;
   --light-color: #EBE8E6;
@@ -12,6 +13,7 @@
 
 @theme inline {
 
+  --color-red: var(--red-color);
   --color-black: var(--black-color);
   --color-white: var(--white-color);
   --color-light: var(--light-color);
